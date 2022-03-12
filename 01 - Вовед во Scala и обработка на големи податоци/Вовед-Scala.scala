@@ -69,7 +69,7 @@ object Scala_Intro {
     val lista2 = 1 :: 2 :: 3 :: 4:: 5:: 1:: 2 :: Nil
     println(lista2(3))
     val temp = Nil //Definicija na prazna lista
-    val gradoviEU = "Brussel" :: "Paris" :: "Berlin" :: Nil
+    val gradoviEU = "Brussls" :: "Paris" :: "Berlin" :: Nil
     println("Prviot element оd listata e : " + gradoviEU.head)
     println("Posledniot element od listata e : " + gradoviEU.isEmpty)
     val gradoviMK = "Skopje" :: "Bitola" :: "Ohrid" :: Nil
