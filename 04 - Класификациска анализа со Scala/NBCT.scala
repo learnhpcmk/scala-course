@@ -9,7 +9,7 @@ import org.apache.spark.mllib.evaluation.MulticlassMetrics
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 
-object NaiveBayesCT {
+object NBCT {
   def main(args: Array[String]): Unit =
   {
     val spark = SparkSession
